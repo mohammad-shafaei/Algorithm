@@ -1,0 +1,11 @@
+a = π(r^2)
+a = Area
+Pi = 3.14 
+r = Radius
+Input:
+π = 3.14
+R = Input;
+a = ?;
+a = π(r^2)
+Output
+Print a

@@ -1,0 +1,11 @@
+var result = num;
+ if (num == 0)
+  {return 1;} {
+alert("Your Factorial Number is One")
+} if (num == 1)
+ {return 1;} {
+alert("Your Factorial Number is One")
+}
+while (num > 1; num--; result = result *num){
+alert(result)
+}

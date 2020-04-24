@@ -1,0 +1,34 @@
+Input Data :
+Input = NAME
+Input = TOTAL HOURS
+Input = Rate HOURS
+***************************************
+Parameters :
+
+TH = Total Hours
+RH = Rate Hours
+TCC = TaxCCP = 4.95%
+TEL = TaxEL = 1.8%
+OT = OverTime
+GI = GrossIncome
+NI = NetIncome
+ORH = Over Rate Hours
+***************************************
+Algorithm :
+
+ if Total HOURS > 40 Hours 
+ OT = TH - 40
+ 
+ 
+ ORH = (RH * 20) / 100
+ GI = (OT * ORH) + (RH * TH) 
+ TCC = GI * TCC 
+ TEL = GI * TEL
+ Total Tax = TCC + Tel
+ NI = GI - Total Tax
+ ***************************************
+ 
+ 
+ 
+ 
+ 

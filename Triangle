@@ -1,0 +1,9 @@
+Triangle:
+b = Base
+h = Height
+A = Area
+
+input = b
+input = h
+
+A = (b*h)/2

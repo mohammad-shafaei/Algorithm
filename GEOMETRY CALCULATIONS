@@ -1,0 +1,88 @@
+Triangle:
+
+b = Base
+h = Height
+A = Area
+
+input = b
+input = h
+
+A = (b*h)/2
+*********************************************************************
+Parallelogram
+
+b = Base
+h = Height
+A = Area
+
+input = b
+input = h
+
+A = b*h
+*********************************************************************
+Rhombus
+
+b = Base
+h = Height
+A = Area
+
+input = b
+input = h
+
+A = b*h
+P = 4*b
+*********************************************************************
+Rectangle
+
+w = width
+l = lenght
+A = Area
+input = w
+input = l
+
+A = l*w
+P = (2*l) + (2*w)
+*********************************************************************
+Square
+
+l = lenght
+A = Area
+
+input = l
+
+A = l ^ 2  
+P = l+l+l+l or P = 4*l
+*********************************************************************
+Trapezoid
+
+b1 = Base(small)
+b2 = Base(large)
+h = Height
+A = Area
+
+input = h
+input = b1
+input = b2
+
+A = ((b1+b2) * h )/2
+*********************************************************************
+Circle
+
+r = radius
+d = Diameter
+Pi = 3.14
+A = Area
+
+input = r
+or
+input = d
+
+A = 3.14*(r*r)
+or
+A = 3.14 * d
+*********************************************************************
+
+
+
+
+
